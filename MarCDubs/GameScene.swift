@@ -23,7 +23,7 @@ class GameScene: SKScene {
         
         Map?.position = CGPoint(x: 0, y: 0)
         self.addChild(Map!)
-        
+        //Creating Mario/Chang
         Mario = SKSpriteNode(imageNamed: "Mario1")
         Mario.position = CGPoint(x: self.frame.width / 2, y: self.frame.height / 2)
         Mario.size = CGSize(width: 30, height: 45)
