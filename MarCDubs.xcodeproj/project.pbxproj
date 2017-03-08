@@ -17,6 +17,11 @@
 		B354C8B51E6FCBA2000965D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B354C8B31E6FCBA2000965D2 /* LaunchScreen.storyboard */; };
 		B354C8C01E6FCBA2000965D2 /* MarCDubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354C8BF1E6FCBA2000965D2 /* MarCDubsTests.swift */; };
 		B354C8CB1E6FCBA2000965D2 /* MarCDubsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B354C8CA1E6FCBA2000965D2 /* MarCDubsUITests.swift */; };
+		B354C8DD1E6FCBF1000965D2 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B354C8DA1E6FCBF1000965D2 /* JSTileMap.m */; };
+		B354C8DE1E6FCBF1000965D2 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B354C8DC1E6FCBF1000965D2 /* LFCGzipUtility.m */; };
+		B354C8E01E6FCD04000965D2 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B354C8DF1E6FCD04000965D2 /* level1.tmx */; };
+		B354C8E31E6FCD46000965D2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B354C8E21E6FCD46000965D2 /* libz.tbd */; };
+		B354C8E51E6FCDCA000965D2 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = B354C8E41E6FCDCA000965D2 /* tileSet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		B354C8C61E6FCBA2000965D2 /* MarCDubsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarCDubsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B354C8CA1E6FCBA2000965D2 /* MarCDubsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarCDubsUITests.swift; sourceTree = "<group>"; };
 		B354C8CC1E6FCBA2000965D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B354C8D81E6FCBF1000965D2 /* MarCDubs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarCDubs-Bridging-Header.h"; sourceTree = "<group>"; };
+		B354C8D91E6FCBF1000965D2 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		B354C8DA1E6FCBF1000965D2 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		B354C8DB1E6FCBF1000965D2 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		B354C8DC1E6FCBF1000965D2 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		B354C8DF1E6FCD04000965D2 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		B354C8E21E6FCD46000965D2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B354C8E41E6FCDCA000965D2 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B354C8E31E6FCD46000965D2 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +101,7 @@
 				B354C8BE1E6FCBA2000965D2 /* MarCDubsTests */,
 				B354C8C91E6FCBA2000965D2 /* MarCDubsUITests */,
 				B354C8A21E6FCBA2000965D2 /* Products */,
+				B354C8E11E6FCD46000965D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +118,12 @@
 		B354C8A31E6FCBA2000965D2 /* MarCDubs */ = {
 			isa = PBXGroup;
 			children = (
+				B354C8E41E6FCDCA000965D2 /* tileSet.png */,
+				B354C8DF1E6FCD04000965D2 /* level1.tmx */,
+				B354C8D91E6FCBF1000965D2 /* JSTileMap.h */,
+				B354C8DA1E6FCBF1000965D2 /* JSTileMap.m */,
+				B354C8DB1E6FCBF1000965D2 /* LFCGzipUtility.h */,
+				B354C8DC1E6FCBF1000965D2 /* LFCGzipUtility.m */,
 				B354C8A41E6FCBA2000965D2 /* AppDelegate.swift */,
 				B354C8A61E6FCBA2000965D2 /* GameScene.sks */,
 				B354C8A81E6FCBA2000965D2 /* Actions.sks */,
@@ -112,6 +133,7 @@
 				B354C8B11E6FCBA2000965D2 /* Assets.xcassets */,
 				B354C8B31E6FCBA2000965D2 /* LaunchScreen.storyboard */,
 				B354C8B61E6FCBA2000965D2 /* Info.plist */,
+				B354C8D81E6FCBF1000965D2 /* MarCDubs-Bridging-Header.h */,
 			);
 			path = MarCDubs;
 			sourceTree = "<group>";
@@ -132,6 +154,14 @@
 				B354C8CC1E6FCBA2000965D2 /* Info.plist */,
 			);
 			path = MarCDubsUITests;
+			sourceTree = "<group>";
+		};
+		B354C8E11E6FCD46000965D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B354C8E21E6FCD46000965D2 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +233,7 @@
 					B354C8A01E6FCBA2000965D2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6E9XW5U7WR;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B354C8BA1E6FCBA2000965D2 = {
@@ -244,11 +275,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B354C8E01E6FCD04000965D2 /* level1.tmx in Resources */,
 				B354C8B01E6FCBA2000965D2 /* Main.storyboard in Resources */,
 				B354C8A71E6FCBA2000965D2 /* GameScene.sks in Resources */,
 				B354C8B21E6FCBA2000965D2 /* Assets.xcassets in Resources */,
 				B354C8B51E6FCBA2000965D2 /* LaunchScreen.storyboard in Resources */,
 				B354C8A91E6FCBA2000965D2 /* Actions.sks in Resources */,
+				B354C8E51E6FCDCA000965D2 /* tileSet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B354C8AB1E6FCBA2000965D2 /* GameScene.swift in Sources */,
+				B354C8DE1E6FCBF1000965D2 /* LFCGzipUtility.m in Sources */,
 				B354C8AD1E6FCBA2000965D2 /* GameViewController.swift in Sources */,
 				B354C8A51E6FCBA2000965D2 /* AppDelegate.swift in Sources */,
+				B354C8DD1E6FCBF1000965D2 /* JSTileMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6E9XW5U7WR;
 				INFOPLIST_FILE = MarCDubs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cap.MarCDubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarCDubs/MarCDubs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -440,11 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6E9XW5U7WR;
 				INFOPLIST_FILE = MarCDubs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cap.MarCDubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarCDubs/MarCDubs-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
